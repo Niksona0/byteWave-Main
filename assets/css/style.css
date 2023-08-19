@@ -724,6 +724,10 @@ a .social-link img {
   gap: 50px;
 }
 
+.newsletter {
+  border-radius: 10px;
+}
+
 .newsletter-banner { max-width: max-content; }
 
 .newsletter .section-subtitle { color: var(--light-gray); }
