@@ -260,7 +260,7 @@ body {
 
 .btn-secondary {
   background-color: var(--mustard);
-  color: var(--raisin-black-1);
+  color: #fff;
   gap: -25px;
 }
 
@@ -1384,6 +1384,10 @@ a .social-link img {
 
 }
 
+.gm-icon {
+  display: none;
+}
+
 
 
 
@@ -1416,6 +1420,10 @@ a .social-link img {
    */
 
    video {
+    display: block;
+   }
+
+   .gm-icon {
     display: block;
    }
 
