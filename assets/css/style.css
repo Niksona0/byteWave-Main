@@ -941,7 +941,7 @@ a .social-link img {
 .back-top-btn {
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  left: 30px;
   background-color: var(--majorelle-blue);
   color: var(--white);
   font-size: 18px;
