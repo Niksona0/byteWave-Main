@@ -143,6 +143,10 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  overflow: hidden;
+}
+
 :focus-visible { outline-offset: 4px; }
 
 ::-webkit-scrollbar { width: 10px; }
@@ -261,7 +265,7 @@ body {
 .btn-secondary {
   background-color: var(--mustard);
   color: #fff;
-  gap: -25px;
+
 }
 
 .btn-secondary::before,
@@ -663,7 +667,6 @@ a .social-link img {
   border-radius: var(--radius-8);
   transition: var(--transition-1);
 }
-
 .filter-btn:is(:hover, :focus) { color: var(--raisin-black-1); }
 
 .filter-btn.active {
@@ -1146,7 +1149,6 @@ a .social-link img {
 
   .newsletter-form .btn-secondary {
     position: absolute;
-    top: 5px;
     right: 5px;
     bottom: 5px;
     padding-inline: 25px;
@@ -1182,6 +1184,7 @@ a .social-link img {
   .copyright { text-align: center; }
 
   .footer-bottom-list { justify-content: center; }
+
 
 }
 
@@ -1413,6 +1416,9 @@ a .social-link img {
 
   }
 
+  .newsletter {
+    overflow: hidden;
+  }
 
 
   /**
@@ -1505,5 +1511,7 @@ a .social-link img {
 
   .blog-card .card-title { --fs-4: 2.4rem; }
 
-
+  /* .btn-secondary {
+    transform: translate(0);
+  } */
 }                
